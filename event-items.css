@@ -1,0 +1,98 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.event-item {
+	display: flex;
+	flex-direction: column;
+	width: 364px;
+}
+
+.event-image {
+	height: 175px;
+	width: 100%;
+	background-image: url("./event-image.png");
+	background-size: cover;
+	background-position: center;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.date-image {
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.date-image .day {
+	color: red;
+	font-size: 22px;
+}
+
+.date-image .month {
+	font-size: 12px;
+	color: #AAA;
+}
+
+.event-info {
+	padding: 15px;
+	border: 1px solid #AAA;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.event-info .event-date {
+	color: #AAA;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.event-info .event-name {
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+
+.event-host {
+	height: 60px;
+	display: flex;
+}
+
+.avatar {
+	height: 100%;
+	width: 20%;
+	background-image: url("https://secure.meetupstatic.com/photos/member/9/3/1/f/thumb_269677663.jpeg");
+	background-position: center;
+	border-radius: 50%;
+}
+
+.event-host .info {
+	height: 100%;
+	width: 80%;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.hoster {
+	color: #BBB;
+}
+
+.time {
+	color: #BBB;
+}
+
+.time a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
