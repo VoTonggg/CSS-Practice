@@ -1,0 +1,19 @@
+.navbar {
+	height: 80px;
+	display: flex;
+}
+
+.logo {
+	height: 100%;
+	width: 250px;
+	background-image: url("./logo.svg");
+	background-size: 250px 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button-group {
+	display: flex;	
+	align-items: center;
+	margin-right: 5px;
+}
